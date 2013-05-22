@@ -1,0 +1,110 @@
+<style type="text/css">
+	  ul{
+		margin-top:0px;
+		padding:0;
+		font-family:calibri;
+		font-size:14px;
+		list-style:none;
+		
+	  }
+	  ul li{
+		display:block;
+		position:relative;
+		float:left;
+		background:DarkSeaGreen;
+	  }
+	  li ul{
+		display:none;
+	  }
+	  ul li a {
+		margin-left:0px;
+		padding:5px 20px 5px 20px;
+		white-space:nowrap;
+		background:DarkSeaGreen;
+		display:block;
+		text-decoration:none;
+		color:white;
+	  }
+	  ul li a:hover{
+		background:MediumAquamarine;
+	  }
+	  li:hover ul{
+		display:block;
+		position:absolute;
+	  }
+	  li:hover li{
+		float:none;
+		font-size:14px;
+	  }
+	  li:hover a{
+		background:MediumAquamarine;
+	  }
+	  li:hover li a:hover{
+		background:MediumAquamarine;
+	  }
+	
+	  #page{
+		height: auto; 
+		width: 85%; 
+		diplay:block;
+		padding-top:0px
+		margin-left:50%; 
+		background:white;
+	  }
+	  #header{
+		height:17%; 
+		width:100%; 
+		diplay:block;
+		font-weight:bold; 
+		color:black; 
+		text-indent:30px; 
+		padding-top:0px;
+		background:DarkSeaGreen;
+      }
+	  #footer{
+		height:4%; 
+		margin-top:35px;
+		width:100%; 
+		color:black; 
+		background:DarkSeaGreen;
+		bottom:0;
+	  }
+	  .tombol{
+		background:DarkSeaGreen;
+		color:black; 
+		font-family:calibri;
+	  }
+	  .tombol:hover{
+	    background:lightblue;
+	  }
+	  .button{
+	  background-color: DarkSeaGreen; 
+	  height: 40; 
+	  width: 80; 
+	  border-radius:5; 
+	  font-weight:bold; 
+	  color:black;
+	  }
+	  .button:hover{
+	    background:lightblue;
+	  }
+	  #menu{
+	    width:100%; 
+		height:4.5%;
+		margin-top:0px;
+		background:DarkSeaGreen;
+		display:block;
+		color:white;
+	  }
+	
+	  #isi{
+	    width:90%; 
+		top:280;
+		height:auto;
+		margin-left:10px;
+		display:block;
+		overflow:visible;
+		color:black;
+		background:white;
+	  }
+	</style>

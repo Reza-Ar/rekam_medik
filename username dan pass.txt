@@ -1,0 +1,8 @@
+Untuk Admin : 
+username : reza
+password : reza
+
+
+Pasien :
+No Kartu : 1
+Nama : Reza Maulana
